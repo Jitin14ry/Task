@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Thought - Technical Project Management</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img
+            src="https://deepthought.education/assets/images/logo/logo.svg"
+            alt="Deep Thought"
+          />
+        </div>
+        <div class="nav-icons">
+          <i class="fas fa-home nav-icon"></i>
+          <i class="fas fa-tools nav-icon"></i>
+          <i class="fas fa-bell nav-icon"></i>
+          <i class="fas fa-user-circle nav-icon"></i>
+        </div>
+      </header>
+      <div class="main-content">
+        <aside class="journey-board">
+          <div class="journey-board-tab">Journey Board</div>
+          <div class="journey-board-content">
+            <h3>Journey Board</h3>
+            <ul id="journey-board-list"></ul>
+          </div>
+        </aside>
+        <main class="content">
+          <div class="task-header">
+            <h2 id="project-title"></h2>
+            <button class="submit-btn">Submit task</button>
+          </div>
+          <div class="info-box">
+            <h3 id="task-title"></h3>
+            <p id="task-description"></p>
+          </div>
+          <div id="asset-containers"></div>
+        </main>
+      </div>
+    </div>
+    <div class="floating-buttons">
+      <a href="#" class="floating-btn"><i class="fas fa-question"></i></a>
+      <a href="#" class="floating-btn"><i class="fas fa-users"></i></a>
+      <a href="#" class="floating-btn"><i class="fas fa-calendar"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
